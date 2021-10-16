@@ -1,0 +1,200 @@
+body {
+  margin: 0px;
+}
+
+header nav {
+  background-color: #f1c232;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  position: fixed;
+  z-index: 1;
+  padding: 0px 100px;
+  opacity: 0.8;
+}
+header a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+/*#logo {
+    font-size: 20px;
+}*/
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding-top: 1em;
+}
+header nav ul li {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#home {
+  background-image: url(/images/home/Best\ -\ Burj\ Khalifa.jpg);
+  z-index: -1;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#what-we-do {
+  background-image: url(/images/what-we-do/Best\ Digitalization\ 3.jpg);
+  width: 100%;
+  min-height: 80vh;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+#desc {
+  padding-top: 50px;
+  font-size: 30px;
+}
+#partners {
+  width: 100%;
+  min-height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#home h1 {
+  text-align: center;
+  font-weight: 800;
+  font-family: "Montserrat";
+  font-size: 36pt;
+}
+#home h2 {
+  text-align: center;
+  padding-top: 8em;
+  margin: 0%;
+}
+#titre {
+  font-size: 20px;
+}
+.card {
+  width: 50%;
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+.card h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.card p {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 50px;
+  /* margin-bottom: 30px;*/
+}
+#partners {
+  min-height: 50vh;
+  margin-bottom: 100px;
+}
+#partners div {
+  display: flex;
+  flex-direction: column;
+}
+#partners img {
+  margin-top: 80px;
+}
+#partners h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+#partners img {
+  display: flex;
+  align-self: center;
+}
+#associates {
+  min-height: 50vh;
+}
+#associates h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+#associates p {
+  text-align: center;
+  font-size: 20px;
+
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  /*margin: 0px 50px;*/
+  margin: 0px 400px;
+}
+#contact-us {
+  background-image: url(/images/contact-us/Best\ Connect.jpeg);
+  /*background-image: url(/images/contact-us/Connect\ 6.jpg);*/
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#contact-us h1 {
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+.details {
+  margin-top: 0;
+}
+h4 {
+  padding-top: 20px;
+}
+.details2 {
+  margin-left: 20px;
+}
+.astro {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/*modification*/
+/*.details3{
+    padding-right: 400px;
+}
+#contact-us h1{
+    padding-right: 500px;
+}*/
+.biog {
+  display: flex;
+}
+.biog img {
+  width: 20%;
+  margin-left: 400px;
+  height: 200px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.down {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  width: 50px;
+  background-color: black;
+}
+@media (max-width: 479px) {
+  header a {
+    font-size: 10px;
+  }
+  header nav ul li {
+    font-size: 20px;
+  }
+}
